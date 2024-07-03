@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shape{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle{
+    border-radius: 50%;
+}
+#rhombus{
+    transform: rotate(45deg);
+    margin-top: 50px;
+}
+#rhombus:hover{
+    background-color: rgb(39, 61, 61);
+}
+#circle:hover{
+    background-color: rgb(108, 117, 211);
+}
+#square:hover{
+    background-color: rgb(207, 83, 83);
+}
